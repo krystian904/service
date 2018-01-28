@@ -6,7 +6,7 @@ export class MessageService {
 messages : string[] = [];
 
   constructor() {
-    
+
   }
 
   add(message : string ){
@@ -20,7 +20,7 @@ messages : string[] = [];
   }
 
   print(){
-    console.log(messages[0]);
+    console.log("messages[0]");
   }
 
 }
