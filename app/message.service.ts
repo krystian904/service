@@ -3,24 +3,24 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class MessageService {
 
-messages : string[] = [];
+  texty : string[] = [];
 
   constructor() {
 
   }
 
   add(message : string ){
-    this.messages.push(message);
+    this.texty.push(message);
 
   }
 
   clear(){
-    this.messages = [];
+    this.texty = [];
 
   }
 
   print(){
-    console.log("messages[0]");
+    console.log(this.texty);
   }
 
 }
